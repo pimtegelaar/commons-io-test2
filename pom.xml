@@ -370,6 +370,8 @@ file comparators, endian transformation classes, and much more.
 		<targetTests>
 		    <param>org.apache.commons.io*</param>
 		</targetTests>
+            	<verbose>true</verbose>
+            	<failWhenNoMutations>false</failWhenNoMutations>
 	    </configuration>
 	</plugin>
     </plugins>
